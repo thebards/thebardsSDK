@@ -1,0 +1,32 @@
+{
+    "name": "thebardssdk",
+    "version": "1.0.0",
+    "description": "thebards SDK",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "compile": "tsc",
+        "build": "npm run compile",
+        "start": "npm run compile && node ./dist/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/thebards/thebardsSDK.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/thebards/thebardsSDK/issues"
+    },
+    "homepage": "https://github.com/thebards/thebardsSDK#readme",
+    "dependencies": {
+        "@types/locale": "^0.1.1",
+        "@types/mime": "^3.0.1",
+        "markdown-it": "^13.0.1"
+    },
+    "devDependencies": {
+        "@types/node": "^18.11.3",
+        "typescript": "^4.8.4"
+    }
+}
